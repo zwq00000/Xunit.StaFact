@@ -16,5 +16,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)Sdk\UITestCaseRunner.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Sdk\UITestInvoker.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Sdk\UITestRunner.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sdk\UITheoryTestCase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sdk\UITheoryTestCaseRunner.cs" />
   </ItemGroup>
 </Project>

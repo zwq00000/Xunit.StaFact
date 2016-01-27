@@ -28,5 +28,10 @@ namespace Xunit.Sdk
         {
             return new UITestCase(UITestCase.SyncContextType.WPF, this.diagnosticMessageSink, discoveryOptions.MethodDisplayOrDefault(), testMethod, dataRow);
         }
+
+        protected override IXunitTestCase CreateTestCaseForTheory(ITestFrameworkDiscoveryOptions discoveryOptions, ITestMethod testMethod, IAttributeInfo theoryAttribute)
+        {
+            return new UITheoryTestCase(this.diagnosticMessageSink, discoveryOptions.MethodDisplayOrDefault(), testMethod);
+        }
     }
 }
