@@ -1,0 +1,28 @@
+{
+    "version": "0.1.29-*",
+
+    "dependencies": {
+        "dotnet-test-xunit": "2.2.0-preview2-build1029",
+        "xunit": "2.2.0",
+        "xunit.extensibility.execution": "2.2.0",
+        "Xunit.StaFact": {
+            "target": "project"
+        }
+    },
+    "testRunner": "xunit",
+    "frameworks": {
+
+        "net451": {
+          "frameworkAssemblies": {
+            "System": "4.0.0",
+            "System.Threading": "4.0.0",
+            "WindowsBase": "4.0.0",
+            "System.Windows.Forms": "4.0.0",
+            "PresentationCore": "4.0.0",
+            "PresentationFramework": "4.0.0",
+            "System.Xaml": "4.0.0" 
+
+          }
+        }
+    }
+}

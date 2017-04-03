@@ -1,0 +1,28 @@
+{
+    "version": "0.1.29-*",
+    
+    "buildOptions": {
+        "define": [
+            "NET452"
+        ],
+        "keyFile": "opensource.snk"
+    },
+
+    "dependencies": {
+        
+    "xunit": "2.2.0",
+    "xunit.extensibility.execution":"2.2.0"
+    },
+
+"frameworks": {
+    
+    "net451":{
+        "frameworkAssemblies": {
+            "System":"4.0.0",
+            "System.Threading":"4.0.0",
+            "WindowsBase": "4.0.0",
+            "System.Windows.Forms":"4.0.0"
+        }
+    }
+}
+}
